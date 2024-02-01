@@ -12,6 +12,7 @@ public class TicTacToeGame {
             nextPlayer = gameBoard.enterMove(nextPlayer, player1, player2);
         }
 
+
         gameBoard.display();
         System.out.printf(gameBoard.findWinnerName(gameBoard.finished(), player1, player2) + " won.");
     }
